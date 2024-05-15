@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro">
+    <title>CRUD system | create users</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="./create-user.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><strong>CRUD sytem</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container section">
+        <div class="grid>">
+            <hgroup>
+                <h1>users</h1>
+                <h2>fill in the fields to register a new user.</h2>
+            </hgroup>
+            <div class="return-to-user">
+                <a href="./list-user.html" role="button" class="outline">return</a>
+            </div>
+        </div>
+        <form>
+            <div class="grid">
+                <input
+                    id="user-name"
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    aria-label="Name"
+                    required
+                />
+                <input
+                    id="user-email"
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                    aria-label="E-mail"
+                    required
+                />
+            </div>
+            <div class="grid">
+                <input 
+                id="user-doucument"
+                type="text"
+                name="doucument"
+                placeholder="Doucument"
+                aria-label="Doucument"
+                required
+                />
+            </div>
+            <button id="user-register" type="submit" class="contrast">save</button>
+        </form>
+    </section>
+</body>
+</html>

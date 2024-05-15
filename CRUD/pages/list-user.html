@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro">
+    <title>CRUD system | list users</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="./list-user.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><strong>CRUD sytem</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section class="section container">
+        <div class="grid">
+            <hgroup>
+                <h1>Users</h1>
+                <h2>Here are the users.</h2>
+            </hgroup>
+            <div class="new-users">
+                <a href="./create-user.html" role="button" class="outline">New Users</a>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">name</th>
+                    <th scope="col">document</th>
+                    <th scope="col">e-mail</th>
+                    <th style="text-align: center" scope="col">actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>123.456.789-10</td>
+                    <td>john.doe@gmail.com</td>
+                    <td style="text-align: center;">]
+                        <img src="" alt="delete" width="20">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+   </section>
+</body>
+</html>

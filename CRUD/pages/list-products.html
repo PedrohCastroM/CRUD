@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro">
+    <title>CRUD system | list products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="./list-products.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><strong>CRUD sytem</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section class="section container">
+        <div class="gtid">
+            <hgroup>
+                <h1>products</h1>
+                <h2>Here are the products.</h2>
+            </hgroup>
+            <div class="new-users">
+                <a href="#" role="button" class="outline">New products</a>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">title</th>
+                    <th scope="col">price</th>
+                    <th scope="col">description</th>
+                    <th style="text-align: center" scope="col">actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>controle</td>
+                    <td>599,99</td>
+                    <td>controle personalizado do seu gosto</td>
+                    <td style="text-align: center;">]
+                        <img src="" alt="delete" width="20">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+   </section>
+</body>
+</html>

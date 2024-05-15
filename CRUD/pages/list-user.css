@@ -1,0 +1,14 @@
+.header {
+    padding: 8px 200px;
+    background-color: #0e1419;
+}
+
+.section{
+    padding-top: 4%;
+}
+
+.new-users{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
